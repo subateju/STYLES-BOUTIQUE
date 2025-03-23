@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles Boutique - Clothing Ad</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div class="ad-container">
+        <h1>Discover the Latest Fashion Trends!</h1>
+        <h2>Styles Boutique</h2>
+        <img src="https://yourimageurl.com/sample.jpg" alt="Fashion Collection">
+        <p>Upgrade your wardrobe with our new collection. Explore the latest styles and enjoy exclusive offers.</p>
+        <a href="#" class="shop-now-button" onclick="redirectToShop()">Shop Now</a>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
