@@ -1,0 +1,39 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.ad-container {
+    background-color: #000000;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ad-container h1, .ad-container h2, .ad-container p {
+    color: #FFFFFF;
+}
+
+.ad-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.shop-now-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
