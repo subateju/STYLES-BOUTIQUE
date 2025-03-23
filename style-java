@@ -1,0 +1,42 @@
+package com.styles.boutique;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StylesBoutiqueApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(StylesBoutiqueApplication.class, args);
+    }
+}
+package com.styles.boutique.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class HomeController {
+
+    @GetMapping("/")
+    public String home() {
+        return "index"; // Loads index.html
+    }
+}
+
+package com.styles.boutique.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import java.util.List;
+import java.util.Arrays;
+
+@RestController
+@RequestMapping("/api/products")
+public class ProductController {
+
+    @GetMapping
+    public List<String> getProducts() {
+        return Arrays.asList("Shirt", "Dress", "Jeans", "Jacket");
+    }
+}
